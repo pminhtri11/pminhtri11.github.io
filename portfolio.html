@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+
+<head>
+    <meta name="viewport" content="width-device-width, initial-scale=1">
+    <title>Portfolio</title>
+
+    <!-- Bootstrap Link  -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- Jquery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <!-- Javascript  -->
+    <script defer src="assets/javascript/logic.js"></script>
+    <!-- Css Link  -->
+    <link href="Assets/Css/style.css" rel="stylesheet" type="text/css">
+
+
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container bg-info">
+            <a class="navbar-brand font-weight-bolder" href="index.html"> Tri Phan</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01"
+                aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+                <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+                    <!--Change mr-auto to ml-auto for it to appear left side-->
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="Portfolio.html">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <br>
+
+    <div class="container">
+        <main class="row">
+            <div class="col-md-12">
+                <article class="block">
+                    <h1 class="block-header">Portfolio
+                        <button type="button" class="btn btn-success float-right groupProject">Group-Project</button>
+                        <button type="button" class="btn btn-info float-right soloProject">Solo-Project</button>
+                    </h1>
+
+                    <hr />
+                    <!-- Solo Project Display  -->
+                    <div class="row  solo-project">
+                        <div class="card col-sm-6 col-md-12 col-lg-5">
+                            <img class="card-img-top img-fluid port-image" src="assets/images/WordGuess.PNG">
+                            <div class="card-body">
+                                <h5 class="card-title text-primary">Word Guessing Game</h5>
+                                <p class="card-text"> Using basic Javascript functions to create a Pokemon Name guessing
+                                    game </p>
+                            </div>
+                            <div class="card-footer">
+                                <button type="button" class="btn btn-info btn-block"
+                                    onclick="window.open('https://github.com/pminhtri11/WordGuessingGame', '_blank')">Github
+                                    Page</button>
+                            </div>
+                        </div>
+                        <div class="card col-sm-6 col-md-12 col-lg-5">
+                            <img class="card-img-top img-fluid port-image" src="assets/images/ImageClick.PNG">
+                            <div class="card-body">
+                                <h5 class="card-title text-primary">Image Attributes Guessing Game</h5>
+                                <p class="card-text"> This is a small fan-made Age of Empire Theme picture guessing
+                                    games using Jquery library </p>
+                            </div>
+                            <div class="card-footer">
+                                <button type="button" class="btn btn-info btn-block"
+                                    onclick="window.open('https://github.com/pminhtri11/Image-Game', '_blank')">Github
+                                    Page</button>
+                            </div>
+                        </div>
+
+                        <div class="card col-sm-6 col-md-12 col-lg-5">
+                            <img class="card-img-top img-fluid port-image" src="assets/images/Trivia.PNG">
+                            <div class="card-body">
+                                <h5 class="card-title text-primary">Starcraft II Trivial Game</h5>
+                                <p class="card-text"> Using Javascript and its libraries to create a Trivial Game with
+                                    the help of timers</p>
+                            </div>
+                            <div class="card-footer">
+                                <button type="button" class="btn btn-info btn-block"
+                                    onclick="window.open('https://github.com/pminhtri11/TriviaGame', '_blank')">Github
+                                    Page</button>
+                            </div>
+                        </div>
+
+                        <div class="card col-sm-6 col-md-12 col-lg-5">
+                            <img class="card-img-top img-fluid port-image" src="assets/images/Gifs.PNG">
+                            <div class="card-body">
+                                <h5 class="card-title text-primary">Gifs Library Calls</h5>
+                                <p class="card-text"> Using Javascript and AJAX call to pull data from Gifs and display
+                                    its</p>
+                            </div>
+                            <div class="card-footer">
+                                <button type="button" class="btn btn-info btn-block"
+                                    onclick="window.open('https://github.com/pminhtri11/GifsTatic', '_blank')">Github
+                                    Page</button>
+                            </div>
+                        </div>
+                        <div class="card col-sm-6 col-md-12 col-lg-5">
+                            <img class="card-img-top img-fluid port-image" src="assets/images/Train.PNG">
+                            <div class="card-body">
+                                <h5 class="card-title text-primary">Train Timers</h5>
+                                <p class="card-text"> Using Google Firebase to store and call back informations</p>
+                            </div>
+                            <div class="card-footer">
+                                <button type="button" class="btn btn-info btn-block"
+                                    onclick="window.open('https://github.com/pminhtri11/Train-Timer', '_blank')">Github
+                                    Page</button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Group Porject Display  -->
+                    <div class="row group-project" style="display:none">
+                        <div class=" card col-sm-10 col-md-12 col-lg-10 text-center">
+                            Nothing So Far
+                        </div>
+                    </div>
+
+                </article>
+            </div>
+        </main>
+    </div>
+
+    <br>
+    <footer class="footer">
+        <div class="two-toned-footer-color"></div>
+        <p class="text-muted text-light-footer text-center text-white">Copyright @2019 Tri Phan</p>
+    </footer>
+</body>
+
+</html>
