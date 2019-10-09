@@ -1,7 +1,6 @@
 /* This section is for the Of ALL HTMLs */
-
 body {
-    background-image: url('../Images/trees.png');
+    background-image: url('../images/trees.png');
     font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;    
 }
 .container 
