@@ -155,6 +155,9 @@ and letting the blue footer a bit larger so it stick out */
     margin-right: 5px;
 }
 
+#groupContainer{
+    margin: auto;
+}
   
 
 
