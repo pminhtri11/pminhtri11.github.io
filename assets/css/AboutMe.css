@@ -1,0 +1,40 @@
+/* This section is for the About Me */
+.IntroSection {
+    /* width: 60%; */
+    margin-top: 0px;
+}
+
+p {
+    margin-bottom: 0px;
+}
+
+
+a:hover{
+    font-weight: bolder;
+}
+  
+.tech{
+    text-align: center;
+}
+  
+.col-3{
+    padding: 10px;
+}
+  
+.col-3:hover{
+    background-color: white;
+}
+  
+.c2{
+    padding-top: 200px;
+}
+
+.i1{
+    height: 200px;
+}
+
+.card-body{
+    height: 100px;
+    padding: 10px;
+}
+

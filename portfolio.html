@@ -11,16 +11,19 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <!-- Javascript  -->
     <script defer src="assets/javascript/logic.js"></script>
+    <!-- Icon Link -->
+    <script src="https://kit.fontawesome.com/132ee25793.js" crossorigin="anonymous"></script>
     <!-- Css Link  -->
     <link href="assets/css/style.css" rel="stylesheet" type="text/css">
+    <link href="assets/css/portfolio.css" rel="stylesheet" type="text/css">
 
 
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-info">
         <div class="container bg-info">
-            <a class="navbar-brand font-weight-bolder" href="index.html"> Tri Phan</a>
+            <a class="navbar-brand font-italic" href="index.html"> TPhan</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01"
                 aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -38,13 +41,24 @@
                     <li class="nav-item">
                         <a class="nav-link" href="contact.html">Contact</a>
                     </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://github.com/pminhtri11">
+                            <i class="fab fa-github"></i>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link waves-effect waves-light"
+                            href="https://www.linkedin.com/in/tri-phan-052b8113b/">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                    </li>
                 </ul>
             </div>
         </div>
     </nav>
     <br>
 
-    <div class="container">
+    <div class="container c1">
         <main class="row">
             <div class="col-md-12">
                 <article class="block">
@@ -152,6 +166,48 @@
                                     Page</button>
                             </div>
                         </div>
+
+                        <div class="card col-sm-6 col-md-12 col-lg-5">
+                            <img class="card-img-top img-fluid port-image" src="assets/images/Scrape.PNG">
+                            <div class="card-body">
+                                <h5 class="card-title text-primary">Scrape and Populate</h5>
+                                <p class="card-text"> Scrape and Populate bring in scrape informations from
+                                    MyAnimeLists.net, stores them in a mongoDB database, and populates them to the index
+                                    file</p>
+                            </div>
+                            <div class="card-footer">
+                                <button type="button" class="btn btn-info btn-block"
+                                    onclick="window.open('https://github.com/pminhtri11/Scrape-and-Populate', '_blank')">Github
+                                    Page</button>
+                            </div>
+                        </div>
+
+                        <div class="card col-sm-6 col-md-12 col-lg-5">
+                            <img class="card-img-top img-fluid port-image" src="assets/images/ClickyGame.PNG">
+                            <div class="card-body">
+                                <h5 class="card-title text-primary">React-ClickyGame</h5>
+                                <p class="card-text"> A quick memory game using React.</p>
+                            </div>
+                            <div class="card-footer">
+                                <button type="button" class="btn btn-info btn-block"
+                                    onclick="window.open('https://github.com/pminhtri11/React-ClickyGame', '_blank')">Github
+                                    Page</button>
+                            </div>
+                        </div>
+
+                        <div class="card col-sm-6 col-md-12 col-lg-5">
+                            <img class="card-img-top img-fluid port-image" src="assets/images/googleBook.png">
+                            <div class="card-body">
+                                <h5 class="card-title text-primary">React-Google Book Search</h5>
+                                <p class="card-text"> Google Book Search App with Save and Delete Function using
+                                    ReactJs, NodeJs, Express and MongoDB</p>
+                            </div>
+                            <div class="card-footer">
+                                <button type="button" class="btn btn-info btn-block"
+                                    onclick="window.open('https://github.com/pminhtri11/Google-Books-Search', '_blank')">Github
+                                    Page</button>
+                            </div>
+                        </div>
                     </div>
 
                     <!-- Group Porject Display  -->
@@ -162,32 +218,112 @@
                                     src="assets/images/ButtonSmash.PNG">
                                 <div class="card-block px-2">
                                     <div class="card-body">
-                                        <h5 class="card-title">Button Smash</h5>
+                                        <h5 class="card-title text-primary">Button Smash</h5>
                                         <p class="card-text" style="font-size: 13px">A website that allow non-gamer to
                                             find more games to plays. It's connected with Twitch and RAWG API. Some of
                                             its feature are: Game Reviews, Chats, and Streams</p>
                                         <hr>
-                                        <p class="card-text" style="font-size: 13px">My Role:</p>
+                                        <p class="card-text" style="font-size: 13px"> <b>My Role:</b></p>
                                         <p class="card-text" style="font-size: 13px">
                                             AJAX call Twitch API and output the data into the Twitch Feature Page.
                                             Create a chat box using Firebase to store the information</p>
-                                        <a href="https://github.com/ursa-min0r/groupProject" class="card-link">GitHub API</a>
-                                        <a href="https://pminhtri11.github.io/Group-Project-ButtonSmash/" class="card-link">App Page</a>
+                                        <div class="row text-center">
+                                            <div class="col">
+                                                <button type="button" class="btn btn-info btn-block"
+                                                    onclick="window.open('https://github.com/ursa-min0r/groupProject', '_blank')">Github
+                                                    Page</button>
+                                            </div>
+                                            <div class="col">
+                                                <button type="button" class="btn btn-info btn-block"
+                                                    onclick="window.open('https://pminhtri11.github.io/Group-Project-ButtonSmash/', '_blank')">Run
+                                                    App</button>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </div>
+
+                    <br>
+
+                    <div class="row group-project" style="display:none">
+                        <div class="col-sm-10 col-md-12 col-lg-10" id="groupContainer">
+                            <div class="d-flex justify-content-center">
+                                <img class="card-header port-image" style="width: 50% " src="assets/images/Hustle.PNG">
+                                <div class="card-block px-2">
+                                    <div class="card-body">
+                                        <h5 class="card-title text-primary">Hustle</h5>
+                                        <p class="card-text" style="font-size: 13px">Hustled is a site that allow you to
+                                            check on your workout process. Some of its features includes: tracking your
+                                            day by day activites and compare its to your previous activities.</p>
+                                        <hr>
+                                        <p class="card-text" style="font-size: 13px"> <b>My Role:</b></p>
+                                        <p class="card-text" style="font-size: 13px">
+                                            Utilize Routes, Sequelize and MySQL to manipulate data that display on the
+                                            sites</p>
+                                        <div class="row text-center">
+                                            <div class="col">
+                                                <button type="button" class="btn btn-info btn-block"
+                                                    onclick="window.open('https://github.com/adamnorton2024/Hustle', '_blank')">Github
+                                                    Page</button>
+                                            </div>
+                                            <div class="col">
+                                                <button type="button" class="btn btn-info btn-block"
+                                                    onclick="window.open('https://hustle-project.herokuapp.com/', '_blank')">Run
+                                                    App</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <br>
+
+                    <div class="row group-project" style="display:none">
+                        <div class="col-sm-10 col-md-12 col-lg-10" id="groupContainer">
+                            <div class="d-flex justify-content-center">
+                                <img class="card-header port-image" style="width: 50% "
+                                    src="assets/images/volunteer-hands.jpg">
+                                <div class="card-block px-2">
+                                    <div class="card-body">
+                                        <h5 class="card-title text-primary">Neighborly</h5>
+                                        <p class="card-text" style="font-size: 13px">Neighborly is a site that allow you
+                                            to contributes to your communities by connects volunters with local
+                                            organization or individual in need.</p>
+                                        <hr>
+                                        <p class="card-text" style="font-size: 13px"> <b>My Role:</b></p>
+                                        <p class="card-text" style="font-size: 13px">
+                                            Using MySQL and Express to allow user to create activities, sign up for some
+                                            or delete their account in React</p>
+                                        <div class="row text-center">
+                                            <div class="col">
+                                                <button type="button" class="btn btn-info btn-block"
+                                                    onclick="window.open('https://github.com/StephenTHendrix/neighborly', '_blank')">Github
+                                                    Page</button>
+                                            </div>
+                                            <div class="col">
+                                                <button type="button" class="btn btn-info btn-block"
+                                                    onclick="window.open('https://myneighborly.herokuapp.com/', '_blank')">Run
+                                                    App</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
                 </article>
             </div>
         </main>
     </div>
 
     <br>
-    <footer class="footer">
-        <div class="two-toned-footer-color"></div>
-        <p class="text-white text-light-footer text-center text-white">Copyright @2019 Tri Phan</p>
-    </footer>
+
 </body>
 
 </html>
