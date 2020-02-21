@@ -15,7 +15,7 @@
     border-bottom: solid 1px black;
 }
 .card-body{
-    height: 125px;
+    height: 150px;
     padding-bottom: 10px;
     padding-top: 10px;
 }
@@ -37,4 +37,7 @@
 
 #groupContainer{
     margin: auto;
+}
+.row {
+    border: 0;
 }
